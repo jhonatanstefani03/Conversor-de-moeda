@@ -1,0 +1,30 @@
+# Ignorar arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignorar ambientes virtuais
+.venv/
+venv/
+
+# Ignorar arquivos de IDE
+.vscode/
+.idea/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+*.log
+
+# Ignorar banco de dados local ou dados temporários (se existir)
+*.sqlite3
+*.db
+
+# Ignorar arquivos temporários de sistema operacional
+*.swp
+*.swo
+
+# Ignorar pastas de testes (se quiser)
+tests/__pycache__/
